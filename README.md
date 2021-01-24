@@ -1,2 +1,2 @@
 # Animation1
-practice creating animated text
+Practice creating animated text with CSS properties

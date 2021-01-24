@@ -2,7 +2,10 @@ body {
     padding: 0;
     margin: 0;
     background: black;
-    font-family: 'Hachi Maru Pop', cursive;
+    font-family: 'Shadows Into Light Two', cursive;
+}
+h1{
+    color: White;
 }
 
 .container {
@@ -22,14 +25,14 @@ span {
     text-shadow: 2px 2px 5px white;
     /*increase 3rd number for blur, lower for reg*/
     transform-origin:center;
-    animation: flip 20s infinite linear;
+    animation: flip 8s infinite linear;
 }
 
-/*gradually moves element down XXpxs*/
+/*gradually moves element down and then added color to gradually change color down*/
 @keyframes flip {
     20% {
         transform: rotatex(360deg);
-        color: yellow;
+        color: black;
 }
     100% {
         transform:rotatex(360deg);
@@ -39,34 +42,34 @@ span {
   
 
   span:nth-child(1) {
-      animation-delay: 1s;
+      animation-delay: 0.5s;
 
   }
   span:nth-child(2) {
-    animation-delay: 1.5s;
+    animation-delay: 1s;
 
 }
 span:nth-child(3) {
-    animation-delay: 2s;
+    animation-delay: 1.5s;
 
 }
 span:nth-child(4) {
-    animation-delay: 2.5s;
+    animation-delay: 2s;
 
 }
 span:nth-child(5) {
-    animation-delay: 3s;
+    animation-delay: 2.5s;
 
 }
 span:nth-child(6) {
-    animation-delay: 3.5s;
+    animation-delay: 3s;
 
 }
 span:nth-child(7) {
-    animation-delay: 4s;
+    animation-delay: 3.5s;
 
 }
 span:nth-child(8) {
-    animation-delay: 4.5s;
+    animation-delay: 4s;
 
 }
